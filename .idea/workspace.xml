@@ -4,26 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0c73ebe6-6a4f-4f6b-b39f-75fbe00376b5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/ImgClassification_ZvrBot.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Actors.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Classifier.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Nanodet.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NanodetRun.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StartWorker.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Yolo8.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/object_detection_nanodet_2022nov.onnx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yolov3.weights" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yolov8x.pt" afterDir="false" />
+    <list default="true" id="0c73ebe6-6a4f-4f6b-b39f-75fbe00376b5" name="Changes" comment="Имена классов для модели Yolo8">
+      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Actors.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classifier.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Nanodet.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NanodetRun.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/StartWorker.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Yolo8.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/coco.names" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection_nanodet_2022nov.onnx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolov3.weights" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolov8x.pt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +29,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;UnderAlex59&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/UnderAlex59/ImgClassification_ZvrBot.git&quot;,
+    &quot;accountId&quot;: &quot;bd4697ba-4d88-4ea5-8757-2dcab3813857&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 7
@@ -45,12 +53,36 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Python.Main (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.Main.executor&quot;: &quot;Run&quot;,
     &quot;Python.main.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.Main (1)">
+    <configuration name="Main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ImgClassification_ZvrBot" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/Main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ImgClassification_ZvrBot" />
       <option name="ENV_FILES" value="" />
@@ -75,6 +107,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Main (1)" />
         <item itemvalue="Python.Main" />
       </list>
     </recent_temporary>
@@ -95,6 +128,28 @@
       <option name="presentableId" value="Default" />
       <updated>1732194380068</updated>
     </task>
+    <task id="LOCAL-00001" summary="Вместо tensorflow добавилмодель nanodet">
+      <option name="closed" value="true" />
+      <created>1732199340259</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1732199340259</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Имена классов для модели Yolo8">
+      <option name="closed" value="true" />
+      <created>1732204106287</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1732204106287</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Вместо tensorflow добавилмодель nanodet" />
+    <MESSAGE value="Имена классов для модели Yolo8" />
+    <option name="LAST_COMMIT_MESSAGE" value="Имена классов для модели Yolo8" />
   </component>
 </project>
